@@ -62,7 +62,7 @@ def seidel_method(A, b, e=1e-10, max_iter=1000, ensure_dominance=True):
         if np.linalg.norm(x - x_prev) < e:
             return x, iteration + 1
 
-    print(f"Достигнуто максимальное число итераций ({max_iter})")
+    print(f"Достигнуто максимальное число итераций ({max_iter}) ")
     return x, max_iter
 
 
