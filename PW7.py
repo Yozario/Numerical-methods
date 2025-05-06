@@ -64,7 +64,7 @@ print(A)
 
 eigenvalues, eigenvectors = jacobi_eigen(A)
 
-print("\nСобственные значения:")
+print("\nСобственные значения: ")
 print(eigenvalues)
 
 print("\nСобственные векторы (в столбцах):")
